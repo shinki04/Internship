@@ -2,6 +2,7 @@
 
 Bài viết này trình bày cách AWS Enterprise Support đã giúp một khách hàng dịch vụ tài chính triển khai giải pháp giám sát sự kiện cơ sở dữ liệu toàn diện. Giải pháp này sử dụng thông báo gốc của Amazon Relational Database Service (Amazon RDS) và Amazon EventBridge.
 
+Link bài viết : https://repost.aws/articles/ARJnWNWSz1RSGKFa6OsoR5Ag/implementing-comprehensive-database-event-management-using-amazon-rds-native-notifications-and-eventbridge
 # Giới thiệu
 
 Trong ngành dịch vụ tài chính, độ tin cậy của cơ sở dữ liệu và bảo trì được kiểm soát là vô cùng quan trọng. Hệ thống cơ sở dữ liệu là xương sống của các hoạt động tài chính quan trọng và xử lý mọi thứ, từ giao dịch thời gian thực đến báo cáo theo quy định và tính toán quản lý rủi ro. Bất kỳ thời gian ngừng hoạt động hoặc sự không nhất quán dữ liệu nào cũng có thể gây ra hậu quả nghiêm trọng, có khả năng ảnh hưởng đến hàng triệu khách hàng và các giao dịch trị giá hàng tỷ đô la. Gần đây, [AWS Enterprise Support](https://aws.amazon.com/premiumsupport/business-support-enterprise-support/) đã giúp một khách hàng dịch vụ tài chính triển khai một hệ thống giám sát sự kiện cơ sở dữ liệu mạnh mẽ. Với hệ thống này, khách hàng có thể kiểm soát các hoạt động bảo trì đồng thời đáp ứng các yêu cầu về tính ổn định hoạt động và tuân thủ.
