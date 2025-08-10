@@ -5,7 +5,6 @@
 **Implement database operations layer với RDS Proxy, connection pooling, query optimization, caching, monitoring.** 
 
 ---
-
 # **Executive Summary**
 
 Trong bối cảnh thương mại điện tử đang phát triển nhanh chóng, các hệ thống cơ sở dữ liệu legacy gặp khó khăn với các nút thắt cổ chai về khả năng mở rộng, chi phí bảo trì cao và chi phí ngày càng tăng, đặc biệt trong các mùa cao điểm như Black Friday. Các hệ thống truyền thống thường dẫn đến việc sử dụng tài nguyên kém hiệu quả từ 20–30% và chi phí vận hành cao hơn 40–70% so với các giải pháp serverless, theo các số liệu chuẩn ngành. Đề xuất này giải quyết một vấn đề thực tế: Hiện đại hóa một nền tảng thương mại điện tử legacy để xử lý lưu lượng truy cập tăng gấp 10 lần trong các mùa cao điểm, đồng thời giảm 50% chi phí vận hành, từ khoảng 4.000 USD/tháng với hạ tầng truyền thống xuống 2.000 USD/tháng với serverless.
